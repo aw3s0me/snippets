@@ -1,0 +1,24 @@
+<snippet>
+    <content><![CDATA[
+var ConstructorName = (function() {
+    'use strict';
+
+    function ConstructorName(arg1, arg2) {
+        // enforces new
+        if (!(this instanceof ConstructorName)) {
+            return new ConstructorName();
+        }
+
+        // constructor body
+    }
+
+    ConstructorName.prototype.someMethod = function(arg) {
+        // method body
+    }
+
+    return ConstructorName;
+
+}());
+]]></content>
+    <tabTrigger>jconstructor</tabTrigger>  
+</snippet>

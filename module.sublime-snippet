@@ -1,0 +1,18 @@
+<snippet>
+    <content><![CDATA[
+var moduleName = (function() {
+    'use strict';
+
+    var privateVar = '';
+
+    var moduleName = {
+        init: {
+        // kickoff
+        }
+    }
+    return moduleName;
+}());
+]]></content>
+    <tabTrigger>jmodule</tabTrigger>  
+
+</snippet>
