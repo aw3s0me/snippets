@@ -21,6 +21,9 @@
 * CSS Reset [cssreset] f:cssreset
 
 ###Bootstrap
+* Carousel [bcarousel] f:cssreset
+* Navigation [bnav] f:bnav
+* Tabs [btabs] f:btabs
 
 
 
